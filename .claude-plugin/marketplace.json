@@ -1,0 +1,14 @@
+{
+  "name": "supervisor-crew-marketplace",
+  "owner": {
+    "name": "Naser Dehghan",
+    "email": "naserdehghan@outlook.com"
+  },
+  "plugins": [
+    {
+      "name": "supervisor-crew",
+      "source": "./plugins/supervisor-crew",
+      "description": "Supervisor/worker crew: a planning supervisor dispatches read-only explorer, advisor, implementer, reviewer and verifier subagents, coordinated through a shared JSONL memory MCP server."
+    }
+  ]
+}
