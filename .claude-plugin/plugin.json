@@ -1,0 +1,11 @@
+{
+  "name": "supervisor-crew",
+  "description": "Supervisor/worker crew: a planning supervisor dispatches read-only explorer, advisor, implementer, reviewer and verifier subagents, coordinated through a shared JSONL memory MCP server.",
+  "version": "1.0.0",
+  "mcpServers": {
+    "memory": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp-server/memory-server.js"]
+    }
+  }
+}
