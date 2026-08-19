@@ -18,7 +18,7 @@ Add the GitHub marketplace, then install the plugin from it:
 Then start a run from the main thread:
 
 ```text
-/supervisor <describe the objective>
+/supervisor-crew:supervisor <describe the objective>
 ```
 
 The supervisor owns the plan, dispatches only the workers needed for the task, and synthesizes their results. It does not read or edit the codebase itself.
