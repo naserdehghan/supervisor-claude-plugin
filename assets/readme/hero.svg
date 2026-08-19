@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">supervisor-crew</title>
+  <desc id="desc">A supervisor coordinates five specialized Claude Code workers through shared project memory.</desc>
+  <rect width="1200" height="390" rx="28" fill="#111318"/>
+  <path d="M0 318H1200" stroke="#2b303a" stroke-width="2"/>
+  <path d="M650 65V318M840 65V318M1030 65V318" stroke="#20242c" stroke-width="1"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="64" y="70" fill="#8d96a8" font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="2">CLAUDE CODE / ORCHESTRATION</text>
+    <text x="64" y="145" fill="#f4f6f8" font-size="62" font-weight="750">supervisor-crew</text>
+    <text x="66" y="194" fill="#c5cad3" font-size="25">One objective. Five focused workers.</text>
+    <text x="66" y="230" fill="#c5cad3" font-size="25">Reviewable results through shared memory.</text>
+    <rect x="64" y="270" width="256" height="44" rx="10" fill="#d9ff66"/>
+    <text x="84" y="298" fill="#171a1f" font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">/supervisor &lt;task&gt;</text>
+  </g>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+    <rect x="770" y="42" width="190" height="58" rx="12" fill="#d9ff66"/>
+    <text x="792" y="78" fill="#171a1f" font-size="22" font-weight="700">SUPERVISOR</text>
+    <path d="M865 100V135M865 135H728M865 135H1002M728 135V158M1002 135V158" fill="none" stroke="#d9ff66" stroke-width="3"/>
+    <g fill="#1b2028" stroke="#596273" stroke-width="2">
+      <rect x="658" y="158" width="140" height="54" rx="10"/>
+      <rect x="932" y="158" width="140" height="54" rx="10"/>
+      <rect x="658" y="242" width="140" height="54" rx="10"/>
+      <rect x="932" y="242" width="140" height="54" rx="10"/>
+      <rect x="795" y="242" width="140" height="54" rx="10"/>
+    </g>
+    <g fill="#f4f6f8" font-size="16" text-anchor="middle">
+      <text x="728" y="191">EXPLORE</text><text x="1002" y="191">ADVISE</text>
+      <text x="728" y="275">IMPLEMENT</text><text x="865" y="275">REVIEW</text><text x="1002" y="275">VERIFY</text>
+    </g>
+    <path d="M728 212V242M1002 212V242M865 135V242" stroke="#596273" stroke-width="2" stroke-dasharray="5 7"/>
+    <text x="866" y="347" fill="#8d96a8" font-size="16" text-anchor="middle">memory_*  ·  JSONL  ·  explicit handoffs</text>
+  </g>
+</svg>

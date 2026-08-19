@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">supervisor-crew run lifecycle</title>
+  <desc id="desc">Five stages show how the supervisor opens a run, writes handoffs, dispatches workers, collects results, and promotes durable knowledge.</desc>
+  <rect width="1200" height="330" rx="24" fill="#f5f6f2"/>
+  <text x="56" y="58" fill="#171a1f" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="32" font-weight="750">A run has a paper trail</text>
+  <text x="57" y="89" fill="#687080" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17">objective → brief → worker → result → durable context</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <g fill="#171a1f">
+      <rect x="56" y="132" width="186" height="128" rx="14"/><rect x="270" y="132" width="186" height="128" rx="14"/><rect x="484" y="132" width="186" height="128" rx="14"/><rect x="698" y="132" width="186" height="128" rx="14"/><rect x="912" y="132" width="232" height="128" rx="14"/>
+    </g>
+    <g fill="#d9ff66" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" font-weight="700">
+      <text x="78" y="166">01 / OPEN</text><text x="292" y="166">02 / BRIEF</text><text x="506" y="166">03 / DISPATCH</text><text x="720" y="166">04 / COLLECT</text><text x="934" y="166">05 / PROMOTE</text>
+    </g>
+    <g fill="#f5f6f2" font-size="20">
+      <text x="78" y="202">Write the task</text><text x="292" y="202">Set the boundary</text><text x="506" y="202">Give one concern</text><text x="720" y="202">Read the outcome</text><text x="934" y="202">Keep what lasts</text>
+    </g>
+    <g fill="#aeb6c3" font-size="15">
+      <text x="78" y="231">new_run: true</text><text x="292" y="231">scope + prior ids</text><text x="506" y="231">one worker / concern</text><text x="720" y="231">search the run</text><text x="934" y="231">scope: project</text>
+    </g>
+  </g>
+  <g stroke="#9ba3af" stroke-width="2" fill="none">
+    <path d="M242 196H270M456 196H484M670 196H698M884 196H912"/>
+  </g>
+  <g fill="#9ba3af">
+    <path d="M264 190l10 6-10 6zM478 190l10 6-10 6zM692 190l10 6-10 6zM906 190l10 6-10 6z"/>
+  </g>
+</svg>
