@@ -8,10 +8,11 @@
 
 ## Start here
 
-Install the plugin with Claude Code, or point Claude Code at this directory:
+Add the GitHub marketplace, then install the plugin from it:
 
 ```text
-/plugin install ./plugins/supervisor-crew
+/plugin marketplace add https://github.com/naserdehghan/supervisor-claude-plugin
+/plugin install supervisor-crew@supervisor-crew-marketplace
 ```
 
 Then start a run from the main thread:
